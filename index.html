@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Study Coach</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Study Coach</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Course Study Coach</h1>
+  <header class="topbar">
+    <span class="brand">📘 Course Study Coach</span>
+    <nav aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#setup-1">Setup</a>
+      <a href="#plan">My Plan</a>
+    </nav>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <div id="dialog-root"></div>
+  <footer class="footer">Course Study Coach v0.1.0 · Milestone #1 · Your data stays in this browser.</footer>
+
+  <script src="js/dates.js"></script>
+  <script src="js/planner.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/views.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
